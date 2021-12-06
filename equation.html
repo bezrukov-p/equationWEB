@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Квадратное уравнение</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Решение уравнения AX<sup>2</sup> + BX + C = 0</h2>
+    <div>
+        <form>
+            <p>
+                <b>Коэффициент A</b><br>
+                <input id="aCoeff" type="text" size="40">
+            </p>
+            <p>
+                <b>Коэффициент B</b><br>
+                <input id="bCoeff" type="text" size="40">
+            </p>
+            <p>
+                <b>Коэффициент C</b><br>
+                <input id="cCoeff" type="text" size="40">
+            </p>
+            <p>
+                <input id="solve" value="Решить" type="button" onclick="calculateResult()" size="60">
+            </p>
+        </form>
+    </div>
+    <div>
+        <table id="table">
+            <caption>Результаты</caption>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>x1</th>
+                <th>x2</th>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
